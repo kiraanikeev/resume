@@ -44,8 +44,25 @@ function LeftSide() {
             <h3 className='skills_title'>Languages</h3>
             <p className='text_p'>Russian — Native</p>
             <p className='text_p'>English — B2 — Upper Intermediate</p>
-
             </div>
+            <div className='line_contacts'></div>
+            <h3 className='skills_title'>About me</h3>
+            <p className='text_p'>In the past, I was engaged in my own business, so I can:</p>
+            <ul>
+            <li className='about'>organize the workflow</li>
+            <li className='about'>plan projects and adhere to the schedule</li>
+            <li className='about'>be responsible for own decisions</li>
+            <li className='about'>search and treat information</li>
+            <li className='about'>work in conditions of uncertainty and stress</li>
+            <li className='about'>constantly learn and improve</li>
+            </ul>
+            {/* <p className='text_p'>Personal qualities:</p>
+            <ul>
+            <li className='about'>high ability to work and educability</li>
+            <li className='about'>discipline and neatness</li>
+            <li className='about'>loyalty to others / self-demanding</li>
+                </ul> */}
+            
         </div>
     )
 }

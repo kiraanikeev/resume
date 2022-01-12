@@ -1,21 +1,21 @@
 .LeftSide{
     grid-area: leftSide;
 background-color: #5e5a5a;
-    width: 310px;
+    width: 290px;
     height: 1754px;
   }
   .foto{
-    width: 220px;
-    height: 220px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     position: relative; 
-    left: 45px;
-    top: 20px;
+    left: 44px;
+    top: 10px;
     border: 5px white solid;
 }
 .contacts{
-  margin-top: 50px;
-  margin-left: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
   padding-bottom: 10px;
   
 }
@@ -26,8 +26,8 @@ background-color: #5e5a5a;
   height: 40px;
 }
 .icon{
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   margin-right: 20px;
 }
 .contact_text{
@@ -36,7 +36,7 @@ background-color: #5e5a5a;
   color: white;
 }
 .line_contacts{
-  width: 280px;
+  width: 270px;
   border-bottom: white 1px solid;
   margin:10px ;
 }
@@ -44,7 +44,7 @@ background-color: #5e5a5a;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: white;
-  margin-left: 30px;
+  margin-left: 20px;
   font-size: 30px;
   margin-bottom: 5px ;
   margin-top: 20px;
@@ -55,7 +55,8 @@ background-color: #5e5a5a;
   color: white;
   font-size: 17px;
   margin-bottom: 25px;
-
+  list-style:none;
+  margin-left: -20px;
 }
 .skill{
   margin: 5px;
@@ -64,6 +65,16 @@ background-color: #5e5a5a;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: white;
-  margin-left: 30px;
+  margin-left: 20px;
   font-size: 16px;
+}
+.about{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  width: 240px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.languages{
+  margin-bottom: 25px;
 }

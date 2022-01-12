@@ -1,9 +1,7 @@
 .App{
 
   display: grid;
-  width: 1240px;
-  max-height: 1754px;
-  /* background-color: burlywood; */
+
   grid-template-areas: 
   'leftSide header header header'
   'leftSide rightSide rightSide rightSide'

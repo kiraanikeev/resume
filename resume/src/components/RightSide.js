@@ -6,7 +6,7 @@ function RightSide() {
         <div className="RightSide">
             <div className='projects'>
             <h3 className='h3_title'>Projects</h3>
-            <h4 className='h4_title'>MESTO (React)</h4>
+            {/* <h4 className='h4_title'>MESTO (React)</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
              <p className='h5_title'>https://github.com/kiraanikeev/mesto-React-</p></div>
              <div className='div_project'><h5 className='heading'>description:</h5>
@@ -14,9 +14,19 @@ function RightSide() {
              </div>
              <div className='div_project'><h5 className='heading'>technology:</h5>
              <p className='h5_title'>React(useState, useEffect, useContext), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design) </p>
+             </div> */}
+
+             <h4 className='h4_title'>Portfolio</h4>
+             <div className='div_project'><h5 className='heading'>github link:</h5>
+             <p className='h5_title'>https://github.com/kiraanikeev/Portfolio</p></div>
+             <div className='div_project'><h5 className='heading'>description:</h5>
+             <p className='h5_title'>It is an app with convenient navigation of accomplished projects using a slider. Contains functions for switching to different themes and languages</p>
+             </div>
+             <div className='div_project'><h5 className='heading'>technology:</h5>
+             <p className='h5_title'>React(useState, useEffect, Suspense), Ajax(fetch(GET,PUT,POST,DELETE)), localStorage, setInterval, i18next, CSS(FLEX, GRID, Responsive design) </p>
              </div>
 
-             <h4 className='h4_title'>MESTO (with authorization)</h4>
+             {/* <h4 className='h4_title'>MESTO (with authorization)</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
              <p className='h5_title'>https://github.com/kiraanikeev/mesto-with-authorization</p></div>
              <div className='div_project'><h5 className='heading'>description:</h5>
@@ -24,7 +34,18 @@ function RightSide() {
              MESTO application with a modified opportunity to sign up and log in users</p>
              </div>
              <div className='div_project'><h5 className='heading'>technology:</h5>
-             <p className='h5_title'>React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design)</p>
+             <p className='h5_title'>React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), localStorage, CSS(FLEX, GRID, Responsive design)</p>
+             </div> */}
+
+            <h4 className='h4_title'>MESTO (React, version with authorization)</h4>
+             <div className='div_project'><h5 className='heading'>github link:</h5>
+             <p className='h5_title'>https://github.com/kiraanikeev/mesto-with-authorization</p></div>
+             <div className='div_project'><h5 className='heading'>description:</h5>
+             <p className='h5_title'>The project was carried out in the process of studying at Yandex.Practicum.
+             It is an interactive page for posting photos with the opportunity to edit a profile, delete publication, like and view the pictures, opportunity to sign up and log in users</p>
+             </div>
+             <div className='div_project'><h5 className='heading'>technology:</h5>
+             <p className='h5_title'>React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), localStorage, CSS(FLEX, GRID, Responsive design)</p>
              </div>
 
              <h4 className='h4_title'>MESTO (JavaScript)</h4>
@@ -32,7 +53,7 @@ function RightSide() {
              <p className='h5_title'>https://github.com/kiraanikeev/mesto</p></div>
              <div className='div_project'><h5 className='heading'>description:</h5>
              <p className='h5_title'>The project was carried out in the process of studying at Yandex.Practicum.
-             MESTO application created in vanilla JavaScript with form validation and additional verification when deleting cards </p>
+             This app was created in vanilla JavaScript with form validation and additional verification when deleting cards </p>
              </div>
              <div className='div_project'><h5 className='heading'>technology:</h5>
              <p className='h5_title'>OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design, BEM), Webpack </p>
@@ -52,24 +73,24 @@ function RightSide() {
              <div className='div_project'><h5 className='heading'>github link:</h5>
              <p className='h5_title'>https://github.com/kiraanikeev/Todo-app</p></div>
              <div className='div_project'><h5 className='heading'>description:</h5>
-             <p className='h5_title'>Todo list is an application for writing tasks with the opportunity to mark completed, delete and edit labels</p>
+             <p className='h5_title'>It is an application for writing tasks with the opportunity to mark completed, delete and edit labels</p>
              </div>
              <div className='div_project'><h5 className='heading'>technology:</h5>
              <p className='h5_title'>React(useState, useEffect), CSS(FLEX, Responsive design), localStorage</p>
              </div>
 
-             <h4 className='h4_title'>Russian_travel</h4>
+             <h4 className='h4_title'>Russian travel</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
              <p className='h5_title'>https://github.com/kiraanikeev/russian_travel</p></div>
              <div className='div_project'><h5 className='heading'>description:</h5>
              <p className='h5_title'>The project was carried out in the process of studying at Yandex.Practicum.
-             One of my first projects. A ordinary landing page without JavaScript. CSS styles written by BEM</p>
+             This is one of my first projects. A ordinary landing page without JavaScript. CSS styles written by BEM</p>
              </div>
              <div className='div_project'><h5 className='heading'>technology:</h5>
              <p className='h5_title'>CSS(FLEX, GRID, Responsive design, BEM)</p>
              </div>
 
-             <h4 className='h4_title'>Sidebar-Navigation-Menu</h4>
+             {/* <h4 className='h4_title'>Sidebar-Navigation-Menu</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
              <p className='h5_title'>https://github.com/kiraanikeev/Sidebar-Navigation-Menu</p></div>
              <div className='div_project'><h5 className='heading'>description:</h5>
@@ -77,8 +98,12 @@ function RightSide() {
              </div>
              <div className='div_project'><h5 className='heading'>technology:</h5>
              <p className='h5_title'>React(router), CSS(FLEX, Responsive design)</p>
-             </div>
+             </div> */}
             </div>
+
+            <div className='div_project'><h5 className='heading strong'>Note:</h5>
+             <p className='h5_title strong'>The entire list of projects can be found on github</p>
+             </div>
 
             <h3 className='h3_title'>Experience</h3>
 
@@ -91,13 +116,13 @@ function RightSide() {
              </div>
     
              <div className='div_project'><h5 className='time'>August 2013 — december 2020</h5>
-             <p className='h5_title'><strong>Travel agency "RossTur"</strong></p></div>
+             <p className='h5_title'><strong>Travel agency "RossTur" (own branch)</strong></p></div>
              <div className='div_project'><h5 className='time'></h5>
-             <p className='h5_title'><strong>Customer Service Manager</strong></p></div>
+             <p className='h5_title'><strong>Working with clients and documentation</strong></p></div>
              <div className='div_project'><h5 className='time'></h5>
              <ul className='h5_title'><li className='li'>consulting and communication with clients</li>
                                       <li className='li'>searching and booking of tours</li>
-                                      <li className='li  NoStrong'>conclusion of contracts with tour operators and clients</li></ul>
+                                      <li className='li  NoStrong'>conclusion of contracts</li></ul>
              </div>
 
              <div className='div_project'><h5 className='time'>August 2011 — july 2012</h5>

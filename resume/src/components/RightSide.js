@@ -6,19 +6,11 @@ function RightSide() {
         <div className="RightSide">
             <div className='projects'>
             <h3 className='h3_title'>Projects</h3>
-            {/* <h4 className='h4_title'>MESTO (React)</h4>
-             <div className='div_project'><h5 className='heading'>github link:</h5>
-             <p className='h5_title'>https://github.com/kiraanikeev/mesto-React-</p></div>
-             <div className='div_project'><h5 className='heading'>description:</h5>
-             <p className='h5_title'>The project was carried out in the process of studying at Yandex.Practicum. Mesto is an interactive page for posting photos with the opportunity to edit a profile, delete your own publication, like and view the pictures</p>
-             </div>
-             <div className='div_project'><h5 className='heading'>technology:</h5>
-             <p className='h5_title'>React(useState, useEffect, useContext), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID, Responsive design) </p>
-             </div> */}
 
              <h4 className='h4_title'>Portfolio</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
-             <p className='h5_title'>https://github.com/kiraanikeev/Portfolio</p></div>
+             <a href='https://github.com/kiraanikeev/Portfolio' className="h5_title">https://github.com/kiraanikeev/Portfolio</a>
+             </div>
              <div className='div_project'><h5 className='heading'>description:</h5>
              <p className='h5_title'>It is an app with convenient navigation of accomplished projects using a slider. Contains functions for switching to different themes and languages</p>
              </div>
@@ -26,20 +18,11 @@ function RightSide() {
              <p className='h5_title'>React(useState, useEffect, Suspense), Ajax(fetch(GET,PUT,POST,DELETE)), localStorage, setInterval, i18next, CSS(FLEX, GRID, Responsive design) </p>
              </div>
 
-             {/* <h4 className='h4_title'>MESTO (with authorization)</h4>
-             <div className='div_project'><h5 className='heading'>github link:</h5>
-             <p className='h5_title'>https://github.com/kiraanikeev/mesto-with-authorization</p></div>
-             <div className='div_project'><h5 className='heading'>description:</h5>
-             <p className='h5_title'>The project was carried out in the process of studying at Yandex.Practicum.
-             MESTO application with a modified opportunity to sign up and log in users</p>
-             </div>
-             <div className='div_project'><h5 className='heading'>technology:</h5>
-             <p className='h5_title'>React(useState, useEffect, useContext, useHistory, HOC, router), Ajax(fetch(GET,PUT,POST,DELETE)), localStorage, CSS(FLEX, GRID, Responsive design)</p>
-             </div> */}
 
             <h4 className='h4_title'>MESTO (React, version with authorization)</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
-             <p className='h5_title'>https://github.com/kiraanikeev/mesto-with-authorization</p></div>
+             <a href='https://github.com/kiraanikeev/mesto-with-authorization' className="h5_title">https://github.com/kiraanikeev/mesto-with-authorization</a>
+             </div>
              <div className='div_project'><h5 className='heading'>description:</h5>
              <p className='h5_title'>The project was carried out in the process of studying at Yandex.Practicum.
              It is an interactive page for posting photos with the opportunity to edit a profile, delete publication, like and view the pictures, opportunity to sign up and log in users</p>
@@ -50,7 +33,8 @@ function RightSide() {
 
              <h4 className='h4_title'>MESTO (JavaScript)</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
-             <p className='h5_title'>https://github.com/kiraanikeev/mesto</p></div>
+             <a href='https://github.com/kiraanikeev/mesto' className="h5_title">https://github.com/kiraanikeev/mesto</a>
+             </div>
              <div className='div_project'><h5 className='heading'>description:</h5>
              <p className='h5_title'>The project was carried out in the process of studying at Yandex.Practicum.
              This app was created in vanilla JavaScript with form validation and additional verification when deleting cards </p>
@@ -61,7 +45,8 @@ function RightSide() {
 
              <h4 className='h4_title'>Kirill's Pizza</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
-             <p className='h5_title'>https://github.com/kiraanikeev/Kirill-s-Pizza</p></div>
+             <a href='https://github.com/kiraanikeev/Kirill-s-Pizza' className="h5_title">https://github.com/kiraanikeev/Kirill-s-Pizza</a>
+             </div>
              <div className='div_project'><h5 className='heading'>description:</h5>
              <p className='h5_title'>Kirill's Pizza is a SPA simulating a pizza ordering site with the opportunity to add an order to the basket</p>
              </div>
@@ -71,7 +56,8 @@ function RightSide() {
 
              <h4 className='h4_title'>Todo-app</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
-             <p className='h5_title'>https://github.com/kiraanikeev/Todo-app</p></div>
+             <a href='https://github.com/kiraanikeev/Todo-app' className="h5_title">https://github.com/kiraanikeev/Todo-app</a>
+             </div>
              <div className='div_project'><h5 className='heading'>description:</h5>
              <p className='h5_title'>It is an application for writing tasks with the opportunity to mark completed, delete and edit labels</p>
              </div>
@@ -81,7 +67,8 @@ function RightSide() {
 
              <h4 className='h4_title'>Russian travel</h4>
              <div className='div_project'><h5 className='heading'>github link:</h5>
-             <p className='h5_title'>https://github.com/kiraanikeev/russian_travel</p></div>
+             <a href='https://github.com/kiraanikeev/russian_travel' className="h5_title">https://github.com/kiraanikeev/russian_travel</a>
+            </div>
              <div className='div_project'><h5 className='heading'>description:</h5>
              <p className='h5_title'>The project was carried out in the process of studying at Yandex.Practicum.
              This is one of my first projects. A ordinary landing page without JavaScript. CSS styles written by BEM</p>
@@ -89,16 +76,6 @@ function RightSide() {
              <div className='div_project'><h5 className='heading'>technology:</h5>
              <p className='h5_title'>CSS(FLEX, GRID, Responsive design, BEM)</p>
              </div>
-
-             {/* <h4 className='h4_title'>Sidebar-Navigation-Menu</h4>
-             <div className='div_project'><h5 className='heading'>github link:</h5>
-             <p className='h5_title'>https://github.com/kiraanikeev/Sidebar-Navigation-Menu</p></div>
-             <div className='div_project'><h5 className='heading'>description:</h5>
-             <p className='h5_title'>Ordinary SPA with the opportunity to go to different pages</p>
-             </div>
-             <div className='div_project'><h5 className='heading'>technology:</h5>
-             <p className='h5_title'>React(router), CSS(FLEX, Responsive design)</p>
-             </div> */}
             </div>
 
             <div className='div_project'><h5 className='heading strong'>Note:</h5>
@@ -152,25 +129,25 @@ function RightSide() {
              <h3 className='h3_title'>Professional development, courses</h3>
 
             <div className='div_project'><h5 className='time'>2021</h5>
-            <p className='h5_title'>Go! English</p></div>
+            <p className='h5_title'><strong>Go! English</strong></p></div>
             <div className='div_project'><h5 className='time'></h5>
             <p className='h5_title'>English Language Courses</p>
             </div>
 
             <div className='div_project'><h5 className='time'>2021</h5>
-            <p className='h5_title'>ItGid</p></div>
+            <p className='h5_title'><strong>ItGid</strong></p></div>
             <div className='div_project'><h5 className='time'></h5>
             <p className='h5_title'>ReactJS and Redux (Redux Toolkit) study course</p>
             </div>
 
             <div className='div_project'><h5 className='time'>2020</h5>
-            <p className='h5_title'>LF School</p></div>
+            <p className='h5_title'><strong>LF School</strong></p></div>
             <div className='div_project'><h5 className='time'></h5>
             <p className='h5_title'>English Language Courses</p>
             </div>
 
             <div className='div_project'><h5 className='time'>2007</h5>
-            <p className='h5_title'>MOK MYK No. 1, Surgut city</p></div>
+            <p className='h5_title'><strong>MOK MYK No. 1, Surgut city</strong></p></div>
             <div className='div_project'><h5 className='time'></h5>
             <p className='h5_title'>Basics of information technology</p>
             </div>

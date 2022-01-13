@@ -1,10 +1,10 @@
 import React from 'react'
 import './LeftSide.css'
-import foto from '../img/1.jpg'
-import phone from '../img/phone-30-16.png'
-import email from '../img/email-16.png'
-import telega from '../img/telegram-3-16.png'
-import git from '../img/github-9-16.png'
+import foto from '../img/3.jpg'
+import phone from '../img/phone-30-32.png'
+import email from '../img/email-32.png'
+import telega from '../img/telegram-3-32.png'
+import git from '../img/github-9-32.png'
 function LeftSide() {
 
     return (
@@ -19,11 +19,20 @@ function LeftSide() {
             <p className="contact_text">kiraanikeev@mail.ru</p></div>
             <div className="contact">
             <img src={telega} className="icon"/>
-            <p className="contact_text">@kiraanikeev</p></div>
+            <a href='https://t.me/kiraanikeev' className="contact_text">@kiraanikeev</a>
+            </div>
             <div className="contact">
             <img src={git} className="icon"/>
-            <p className="contact_text">kiraanikeev</p></div>
+            <a href='https://github.com/kiraanikeev' className="contact_text">kiraanikeev</a>
             </div>
+            </div>
+            <div className='line_contacts'></div>
+            <div>
+                <h3 className='skills_title'>Portfolio</h3>
+                <div className="portfolio">
+                <a href='https://portfolio-anikeev-kirill.herokuapp.com/' className="contact_portfolio">portfolio-anikeev-kirill.herokuapp.com</a></div>
+            </div>
+
             <div className='line_contacts'></div>
             <div>
                 <h3 className='skills_title'>Skills</h3>
@@ -52,16 +61,10 @@ function LeftSide() {
             <li className='about'>organize the workflow</li>
             <li className='about'>plan projects and adhere to the schedule</li>
             <li className='about'>be responsible for own decisions</li>
-            <li className='about'>search and treat information</li>
             <li className='about'>work in conditions of uncertainty and stress</li>
+            <li className='about'>search and treat information</li>
             <li className='about'>constantly learn and improve</li>
             </ul>
-            {/* <p className='text_p'>Personal qualities:</p>
-            <ul>
-            <li className='about'>high ability to work and educability</li>
-            <li className='about'>discipline and neatness</li>
-            <li className='about'>loyalty to others / self-demanding</li>
-                </ul> */}
             
         </div>
     )

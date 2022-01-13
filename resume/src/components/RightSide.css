@@ -9,7 +9,7 @@
     font-size: 26px;
     color: #5e5a5a;;
     margin-bottom: 8px;
-    margin-top: 20px;
+    margin-top: 18px;
   }
   .h4_title{
     font-family: 'Roboto', sans-serif;
@@ -25,6 +25,8 @@
     margin: 5px 5px 0;
     padding: 0;
     width: 740px;
+    text-decoration: none;
+    color: #000;
   }
   .heading{
     font-family: 'Roboto', sans-serif;
@@ -47,11 +49,11 @@ align-items:flex-start;
 
 .time{
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 9px;
-  margin: 5px 5px -10px 0;
+  margin: 5px 3px -10px 0;
   padding: 0;
-  width: 63px;
+  width: 64px;
   color: #353232;
 }
 .li{

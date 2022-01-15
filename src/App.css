@@ -1,0 +1,8 @@
+.App {
+  display: grid;
+
+  grid-template-areas:
+    "leftSide header header header"
+    "leftSide rightSide rightSide rightSide"
+    "leftSide rightSide rightSide rightSide";
+}

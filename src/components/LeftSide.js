@@ -48,17 +48,23 @@ function LeftSide() {
       <div>
         <h3 className="skills_title">Skills</h3>
         <ul className="skills">
-          <li className="skill">HTML/CSS</li>
-          <li className="skill">JavaScript/ES6+</li>
-          <li className="skill">React JS, Redux</li>
+          <li className="skill">HTML / CSS / Responsive design</li>
+          <li className="skill">JavaScript / ES6+</li>
+          <li className="skill">React(Hooks, HOC, CSS-modules)</li>
+          <li className="skill">Redux, Redux-Saga</li>
+          <li className="skill">TypeScript</li>
           <li className="skill">Git</li>
-          <li className="skill">Responsive design</li>
-          <li className="skill">BEM</li>
+          <li className="skill">MongoDB</li>
           <li className="skill">Ajax</li>
           <li className="skill">Webpack</li>
         </ul>
       </div>
-
+      <div className="line_contacts"></div>
+      <div className="languages">
+        <h3 className="skills_title">Languages</h3>
+        <p className="text_p">Russian — Native</p>
+        <p className="text_p">English — B2 — Upper Intermediate</p>
+      </div>
       <div className="line_contacts"></div>
       <h3 className="skills_title">About me</h3>
       <p className="about">
@@ -82,12 +88,7 @@ function LeftSide() {
         occupation is really suitable for me. I enjoy creating code in React.js
         and observing how the project "comes to life".
       </p>
-      <div className="line_contacts"></div>
-      <div className="languages">
-        <h3 className="skills_title">Languages</h3>
-        <p className="text_p">Russian — Native</p>
-        <p className="text_p">English — B2 — Upper Intermediate</p>
-      </div>
+
     </div>
   );
 }

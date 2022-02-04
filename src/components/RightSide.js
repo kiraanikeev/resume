@@ -62,26 +62,23 @@ function RightSide() {
           </p>
         </div>
 
-        <h4 className="h4_title">MESTO (JavaScript)</h4>
+        <h4 className="h4_title">Table with back-end</h4>
         <div className="div_project">
           <h5 className="heading">github link:</h5>
-          <a href="https://github.com/kiraanikeev/mesto" className="h5_title">
-            https://github.com/kiraanikeev/mesto
+          <a href="https://github.com/kiraanikeev/Table-with-back-end" className="h5_title">
+          https://github.com/kiraanikeev/Table-with-back-end
           </a>
         </div>
         <div className="div_project">
           <h5 className="heading">description:</h5>
           <p className="h5_title">
-            The project was carried out in the process of studying at
-            Yandex.Practicum. This app was created in vanilla JavaScript with
-            form validation and additional verification when deleting cards{" "}
+          The app receives the database from the created server and provides the search result using three-level filtering
           </p>
         </div>
         <div className="div_project">
           <h5 className="heading">technology:</h5>
           <p className="h5_title">
-            OOP(Classes), Ajax(fetch(GET,PUT,POST,DELETE)), CSS(FLEX, GRID,
-            Responsive design, BEM), Webpack{" "}
+          FRONT: React(useState, useEffect, pagination, validation), Axios, CSS(FLEX, Responsive design). BACK: MongoDB, Express js
           </p>
         </div>
 
@@ -135,27 +132,25 @@ function RightSide() {
           </p>
         </div>
 
-        <h4 className="h4_title">Russian travel</h4>
+        <h4 className="h4_title">Integration of WebSocket with Redux Saga</h4>
         <div className="div_project">
           <h5 className="heading">github link:</h5>
           <a
-            href="https://github.com/kiraanikeev/russian_travel"
+            href="https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga"
             className="h5_title"
           >
-            https://github.com/kiraanikeev/russian_travel
+            https://github.com/kiraanikeev/Integration-of-WS-with-Redux-Saga
           </a>
         </div>
         <div className="div_project">
           <h5 className="heading">description:</h5>
           <p className="h5_title">
-            The project was carried out in the process of studying at
-            Yandex.Practicum. This is one of my first projects. A ordinary
-            landing page without JavaScript. CSS styles written by BEM
+          An event channel is created on Redux-Saga and with each response from WS, information from the server is conveyed to the user
           </p>
         </div>
         <div className="div_project">
           <h5 className="heading">technology:</h5>
-          <p className="h5_title">CSS(FLEX, GRID, Responsive design, BEM)</p>
+          <p className="h5_title">React(react-window), Redux(useSelector, useDispatch, reselect), Redux-Saga(eventChannel) localStorage, WebSocket</p>
         </div>
       </div>
 
